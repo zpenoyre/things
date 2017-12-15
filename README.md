@@ -1,17 +1,24 @@
 # things
 the number of things in the universe
-
-We should probably write a real readme at some point...
-
+__________________________________________
+IMPORTANT THING 1
 Here's the function to save the data in the right format:
-np.savetxt('fileName.txt',data,fmt='%1.3e \t',header='M (M_s) \t dN/dMdV (M_s^-1 pc^-3)')
+footerText='/NameInLegend/Colour/Linsetyle/'
+np.savetxt('fileName.txt',data,fmt='%1.3e \t',header='M (M_s) \t dN/dMdV (M_s^-1 pc^-3)',footer=footerText)
+__________________________________________
 
-To plot your line just add the filename to the list, plus a colour, a string for the label and a label position
-(sounds complex but should be pretty clear in the file)
+The ipynb will automatically plot your data, label it with the 'NameInLegend', give it your specified 'Colour' and plot it with the specified 'linestyle'.
 
-Feel free to pull request if you feel comfortable with it (even if not! I'm overseeing everything so you shouldn't be able to break anything and now's a good time to learn)
-Otherwise you can always just make your data and email it to me.
+At the moment you cannot use LaTeX in 'NameInLegend', if this is a problem let me know and I'll think about a workaround
+The 'colour' should be a hex string, I like to get mine from here: https://coolors.co/browser
+The 'linestyle' is normal matplotlib linestyle ('-' is straight, '--' is dashed, ':' is dotted)
 
-Not sure how to share a link to the sharelatex document but if we work that out I'll post that here too.
+Feel free to upload you data and run the notebook to see how it looks BUT
+__________________________________________
+IMPORTANT THING 2
+Please do not make pull requests with changes to the notebook, just with your data added.
+__________________________________________
+
+Here's where the document's living on Overleaf (https://www.overleaf.com/12813067jrqsbbzcgdsg#/48923716/)
 
 Happy hunting!
