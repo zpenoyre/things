@@ -2,9 +2,12 @@
 the number of things in the universe
 __________________________________________
 IMPORTANT THING 1
+
 Here's the function to save the data in the right format:
-footerText='/NameInLegend/Colour/Linsetyle/'
-np.savetxt('fileName.txt',data,fmt='%1.3e \t',header='M (M_s) \t dN/dMdV (M_s^-1 pc^-3)',footer=footerText)
+
+      footerText='/NameInLegend/Colour/Linsetyle/'
+      np.savetxt('fileName.txt',data,fmt='%1.3e \t',header='M (M_s) \t dN/dMdV (M_s^-1 pc^-3)',footer=footerText)
+      
 __________________________________________
 
 The ipynb will automatically plot your data, label it with the 'NameInLegend', give it your specified 'Colour' and plot it with the specified 'linestyle'.
@@ -16,6 +19,7 @@ The 'linestyle' is normal matplotlib linestyle ('-' is straight, '--' is dashed,
 Feel free to upload you data and run the notebook to see how it looks BUT
 __________________________________________
 IMPORTANT THING 2
+
 Please do not make pull requests with changes to the notebook, just with your data added.
 __________________________________________
 
