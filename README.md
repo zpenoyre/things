@@ -5,8 +5,8 @@ IMPORTANT THING 1
 
 Here's the function to save the data in the right format:
 
-      footerText='/NameInLegend/Colour/Linsetyle/'
-      np.savetxt('fileName.txt',data,fmt='%1.3e \t',header='M (M_s) \t dN/dMdV (M_s^-1 pc^-3)',footer=footerText)
+    footerText='/NameInLegend/Colour/Linsetyle/'
+    np.savetxt('fileName.txt',data,fmt='%1.3e \t',header='M (M_s) \t dN/dMdV (M_s^-1 pc^-3)',footer=footerText)
       
 __________________________________________
 
