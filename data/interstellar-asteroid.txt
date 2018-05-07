@@ -1,0 +1,3 @@
+#mass in solar masses 	  num density for MW
+4.185000000000000054e-21  2.000000000000000000e+15
+#/Interstellar Asteroids (Observed, MW)/#fe5f55/-/
